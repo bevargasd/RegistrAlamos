@@ -24,3 +24,6 @@ def registro(request):
         form = UserRegisterForm()
     context = {'form': form}
     return render(request, 'registro.html', context)
+
+def agendar(request):
+    return render(request, 'agendar.html') 
