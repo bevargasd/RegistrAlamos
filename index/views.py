@@ -27,3 +27,18 @@ def registro(request):
 
 def agendar(request):
     return render(request, 'agendar.html') 
+
+def paciente(request):
+    return render(request, 'paciente.html') 
+
+def doctor(request):
+    return render(request, 'doctor.html') 
+
+def secretaria(request):
+    return render(request, 'secretaria.html') 
+
+def reagendar(request):
+    return render(request, 'reagendar.html') 
+
+def hora(request):
+    return render(request, 'hora.html') 
